@@ -304,11 +304,11 @@ ported from 10: a07271ed7e45239369f2ca33496d939d2e9cbd08
  .../android/permissioncontroller/permission/utils/Utils.java   | 3 +++
  1 file changed, 3 insertions(+)
 
-diff --git a/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java b/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
-index 65fdd590..2f0dc3d2 100644
+diff --git a/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java b//packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
+index 3389816..5c895c4 100644
 --- a/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
 +++ b/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
-@@ -25,6 +25,7 @@ import static android.Manifest.permission_group.CAMERA;
+@@ -23,6 +23,7 @@ import static android.Manifest.permission_group.CAMERA;
  import static android.Manifest.permission_group.CONTACTS;
  import static android.Manifest.permission_group.LOCATION;
  import static android.Manifest.permission_group.MICROPHONE;
@@ -316,12 +316,11 @@ index 65fdd590..2f0dc3d2 100644
  import static android.Manifest.permission_group.PHONE;
  import static android.Manifest.permission_group.SENSORS;
  import static android.Manifest.permission_group.SMS;
-@@ -209,6 +210,8 @@ public final class Utils {
- 
+@@ -173,6 +174,7 @@ public final class Utils {
+         PLATFORM_PERMISSIONS.put(Manifest.permission.ACTIVITY_RECOGNITION, ACTIVITY_RECOGNITION);
+         PLATFORM_PERMISSIONS.put(Manifest.permission.CAMERA, CAMERA);
          PLATFORM_PERMISSIONS.put(Manifest.permission.BODY_SENSORS, SENSORS);
- 
 +        PLATFORM_PERMISSIONS.put(Manifest.permission.INTERNET, NETWORK);
-+
          PLATFORM_PERMISSION_GROUPS = new ArrayMap<>();
          int numPlatformPermissions = PLATFORM_PERMISSIONS.size();
          for (int i = 0; i < numPlatformPermissions; i++) {
