@@ -304,7 +304,7 @@ ported from 10: a07271ed7e45239369f2ca33496d939d2e9cbd08
  .../android/permissioncontroller/permission/utils/Utils.java   | 3 +++
  1 file changed, 3 insertions(+)
 
-diff --git a/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java b//packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
+diff --git a/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java b/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
 index 3389816..5c895c4 100644
 --- a/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
 +++ b/packages/apps/PermissionController/src/com/android/permissioncontroller/permission/utils/Utils.java
