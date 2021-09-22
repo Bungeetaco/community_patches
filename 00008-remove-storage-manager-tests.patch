@@ -1,4 +1,17 @@
 diff --git a/platform_testing/build/tasks/tests/instrumentation_test_list.mk b/platform_testing/build/tasks/tests/instrumentation_test_list.mk
+index 977fb0b..46f6789 100644
+--- a/platform_testing/build/tasks/tests/instrumentation_test_list.mk
++++ b/platform_testing/build/tasks/tests/instrumentation_test_list.mk
+@@ -55,7 +55,6 @@ instrumentation_tests := \
+     UsbTests \
+     DownloadProviderTests \
+     EmergencyInfoUnitTests \
+-    CalendarProviderTests \
+     SettingsLibTests \
+     RSTest \
+     PrintSpoolerOutOfProcessTests \
+
+diff --git a/platform_testing/build/tasks/tests/instrumentation_test_list.mk b/platform_testing/build/tasks/tests/instrumentation_test_list.mk
 index 23861c8..977fb0b 100644
 --- a/platform_testing/build/tasks/tests/instrumentation_test_list.mk
 +++ b/platform_testing/build/tasks/tests/instrumentation_test_list.mk
