@@ -25,3 +25,16 @@ index 23861c8..977fb0b 100644
 -instrumentation_tests += StorageManagerUnitTests
 -
 -endif
+
+diff --git a/platform_testing/build/tasks/tests/platform_test_list.mk b/platform_testing/build/tasks/tests/platform_test_list.mk
+index 7ca9047..4592368 100644
+--- a/platform_testing/build/tasks/tests/platform_test_list.mk
++++ b/platform_testing/build/tasks/tests/platform_test_list.mk
+@@ -23,7 +23,6 @@ platform_tests += \
+     BootHelperApp \
+     BusinessCard \
+     CalculatorFunctionalTests \
+-    CalendarTests \
+     camera_client_test \
+     camera_metadata_tests \
+     CellBroadcastReceiverTests \
