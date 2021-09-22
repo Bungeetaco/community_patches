@@ -1,0 +1,14 @@
+diff --git a/platform_testing/build/tasks/tests/instrumentation_test_list.mk b/platform_testing/build/tasks/tests/instrumentation_test_list.mk
+index 23861c8..977fb0b 100644
+--- a/platform_testing/build/tasks/tests/instrumentation_test_list.mk
++++ b/platform_testing/build/tasks/tests/instrumentation_test_list.mk
+@@ -74,9 +74,3 @@ instrumentation_tests := \
+     FrameworksNetSmokeTests\
+ 
+ 
+-# Storage Manager may not exist on device
+-ifneq ($(filter StorageManager, $(PRODUCT_PACKAGES)),)
+-
+-instrumentation_tests += StorageManagerUnitTests
+-
+-endif
